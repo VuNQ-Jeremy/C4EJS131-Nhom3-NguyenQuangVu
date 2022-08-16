@@ -79,3 +79,12 @@ p {
     justify-content: center;
     align-items: stretch;
 }
+
+/* <p> sample1 </p>
+p::after {
+    content: ">"
+ }
+ p::before {
+    content: "<"
+}
+p:hover::after::before {}   */
