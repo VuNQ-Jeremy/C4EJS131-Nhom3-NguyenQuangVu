@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8ebc40ac3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#favorites">My favorites</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Developer</p>
+                <h1>Hi, I'm <span>Jeremy</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>A nerd who likes to play games</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('info')">Personal Info</p>
+                        <p class="tab-links" onclick="opentab('known')">What I've known for</p>
+                        <p class="tab-links" onclick="opentab('do')">What I do</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="info">
+                        <ul>
+                            <li><span>Name</span><br>Nguyễn Quang Vũ<br>a.k.a Misery (Dota)<br>a.k.a Yui (Maplestory)</li>
+                            <li><span>D.O.B</span><br>Dec 7th 1997</li>
+                            <li><span>What I like</span><br>Games (obviously)<br>Technology<br>Music</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="known">
+                        <ul>
+                            <li><span>Dota</span><br>Immortal rank (<a href="https://www.facebook.com/stories/?card_id=UzpfSVNDOjUzNDU3NjY4MDc3MDI5OA%3D%3D&view_single=true" target="_blank">used to be</a>, I just came back 2 months ago)<br><a href="https://www.dotabuff.com/players/125486260" target="_blank">Dotabuff</a></li>
+                            <li><span>MapleStory</span><br>Rank #1 Aran GMS server Reboot (<a href="https://www.reddit.com/r/Maplestory/comments/alm6x9/gms_reboot_first_verus_hilla_clear/" target="_blank">used to be</a>)</li>
+                            <li><span>A nerd</span><br>I like weird music<br>OCD person</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="do">
+                        <ul>
+                            <li><span>Music</span><br>I used to play in a band</li>
+                            <li><span>Technology</span><br>I code, I fix things</li>
+                            <li><span>Job</span><br>I'm dedicated in my work, nothing can stop my curiousity</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- favorites -->
+    <div id="favorites">
+        <div class="container">
+            <h1 class="sub-title">My favorites</h1>
+            <div class="favorites-list">
+                <div>
+                    <i class="fa-solid fa-music"></i>
+                    <h2>Music</h2>
+                    <p>- Music Travel Love</p>
+                    <p>- Shy Martin</p>
+                    <p>- Vocal EDM in general</p>
+                    <p>- Some J-Pop</p>
+                    <p>...</p>
+                    <a href="https://open.spotify.com/user/a0dftrqq0rjve5reo34p1n2d6" target="_blank">My Spotify</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-youtube"></i>
+                    <h2>Content creators</h2>
+                    <p>- Lemmino <a href="https://www.youtube.com/c/lemmino" target="_blank">https://www.youtube.com/c/lemmino</a></p>
+                    <p>- EroldStory <a href="https://www.youtube.com/c/EroldStory" target="_blank">https://www.youtube.com/c/EroldStory</a></p>
+                    <p>- NileRed <a href="https://www.youtube.com/c/NileRed" target="_blank">https://www.youtube.com/c/NileRed</a></p>
+                    <a href="#">My Youtube</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Other things...</h2>
+                    <p>- I like history, game lore... (I really like Warcraft lore and stories)</p>
+                    <p>- I like movies (Sci-fi, action, comedy,...)</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVQwGnA3ldtSMzjQwvXcIDCU8ksboUYzZFaw&usqp=CAU">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Description</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://threema.ch/images/screenshots/android/en/dark/conversations-portrait.jpg">
+                    <div class="layer">
+                        <h3>Social App</h3>
+                        <p>Description</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://image.similarpng.com/very-thumbnail/2020/12/Online-shopping-banner-on-mobile-social-media-app-on-transparent-background-PNG.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Description</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-inbox-full"></i> contact@example.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i> 0984741262</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Jeremy</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
